@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    color: #111;
+}
+
+.header {
+    background: #0b1c39;
+    padding: 20px 0;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #0b1c39, #1d4ed8);
+    color: white;
+    text-align: center;
+}
+
+.hero button {
+    padding: 14px 40px;
+    background: #ffb703;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section.light {
+    background: #f5f7fb;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+form {
+    max-width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background: #0b1c39;
+    color: white;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+}
+
+footer {
+    background: #0b1c39;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
