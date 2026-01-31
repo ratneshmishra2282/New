@@ -26,7 +26,7 @@ form.addEventListener("submit", async (e) => {
 });
 
 function openWhatsApp() {
-    const phone = "91XXXXXXXXXX"; // your number
+    const phone = "916388205751"; // your number
     const msg = encodeURIComponent(
         "Hello, I would like to discuss enterprise IT solutions."
     );
