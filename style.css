@@ -4,6 +4,19 @@ body {
     color: #111;
 }
 
+.brand img {
+    height: 42px;          /* CXO-friendly size */
+    width: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .brand img {
+        height: 34px;      /* Mobile optimization */
+    }
+}
+
+
 .header {
     background: #3bb0de;
     padding: 20px 0;
