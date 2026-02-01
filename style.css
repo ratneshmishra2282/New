@@ -43,6 +43,31 @@ nav a {
     color: white;
     text-align: center;
 }
+.enterprise-bg {
+    background: 
+        linear-gradient(
+            rgba(11, 28, 57, 0.85),
+            rgba(11, 28, 57, 0.85)
+        ),
+        url("images/enterprise-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Ensure cards still look premium */
+.enterprise-bg .card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #111;
+}
+
+/* Headings & spacing */
+.enterprise-bg h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
 
 .hero button {
     padding: 14px 40px;
